@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="login-automation" parallel="false" thread-count="1">
+
+    <test name="UserLogin" >
+        <parameter name="mergeProcess" value="false" />
+        <parameter name="browser" value="Chrome" />
+        <parameter name="version" value="80.0" />
+        <classes>
+            <class name="com.hrs.runners.AppTestRun" />
+        </classes>
+    </test>
+</suite>
